@@ -319,9 +319,13 @@
                         </connections>
                     </tableView>
                     <toolbarItems>
-                        <barButtonItem title="+" id="Soi-xM-esY"/>
+                        <barButtonItem id="Soi-xM-esY"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" title="Sleep Record" id="zcj-75-ujn"/>
+                    <navigationItem key="navigationItem" title="Sleep Record" id="zcj-75-ujn">
+                        <barButtonItem key="rightBarButtonItem" title="+" id="39m-1N-tIf">
+                            <color key="tintColor" red="0.1892246917" green="0.34393181220000002" blue="0.99865537879999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UL9-8M-csh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
