@@ -70,9 +70,6 @@
                                 <rect key="frame" x="52" y="388" width="121" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="buttonjournal"/>
-                                <connections>
-                                    <segue destination="VRW-e6-MJ3" kind="show" id="u2x-9V-EOd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEU-W5-KRz">
                                 <rect key="frame" x="52" y="183" width="121" height="121"/>
@@ -97,7 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="Fnr-Fi-9sN" kind="show" id="Yup-bi-1AK"/>
+                                    <segue destination="Fnr-Fi-9sN" kind="show" id="ro6-lt-mcV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -127,6 +124,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.71842181679999995" green="0.7396410108" blue="0.82354134320000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -143,6 +141,11 @@
                         <barButtonItem title="Item" id="C4m-Mk-SlB"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Sleep tracker" id="1PV-B8-q58">
+                        <barButtonItem key="leftBarButtonItem" title="Tips" id="Kze-bc-F9V">
+                            <connections>
+                                <segue destination="xy4-aK-gtX" kind="show" id="ink-Qe-aPT"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" id="oZL-gJ-VY3">
                             <connections>
                                 <segue destination="ZCX-gS-ukq" kind="show" id="Xdg-ic-gWE"/>
@@ -231,12 +234,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WdJ-AO-gvu">
-                                <rect key="frame" x="0.0" y="140" width="394" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OBQ-VZ-zQh">
                                 <rect key="frame" x="20" y="252" width="374" height="556"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -245,6 +242,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WdJ-AO-gvu">
+                                <rect key="frame" x="10" y="128" width="394" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.99904006720000005" green="0.88316935299999999" blue="0.83528631929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="o1e-m9-VmZ"/>
@@ -567,7 +570,7 @@
             <objects>
                 <viewController title="sleep report" id="xy4-aK-gtX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wIj-7x-OLe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sleep report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGb-tv-Wci">
@@ -640,6 +643,7 @@
                         <color key="backgroundColor" red="0.72225135559999998" green="0.73979550599999999" blue="0.81569725280000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="GdO-ha-qgd"/>
                     </view>
+                    <navigationItem key="navigationItem" id="77g-CM-3di"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lfo-jo-Saa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -792,7 +796,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Sgu-dv-Ddy"/>
-        <segue reference="SnP-li-Hdu"/>
         <segue reference="c9j-bF-b5m"/>
     </inferredMetricsTieBreakers>
     <resources>
