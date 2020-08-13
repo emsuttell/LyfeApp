@@ -756,6 +756,27 @@
             </objects>
             <point key="canvasLocation" x="1566.6666666666667" y="129.91071428571428"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="i1V-yp-foT">
+            <objects>
+                <viewController id="3Uf-N3-oC4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3tx-FP-H5Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="challenges" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-kR-hjP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Jxf-Tp-Pp5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sgl-Je-SOd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2311.594202898551" y="127.90178571428571"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="VvE-qK-cbk">
             <objects>
@@ -805,6 +826,7 @@
         <image name="buttonjournal" width="1080" height="1080"/>
         <image name="buttonmeditate" width="1080" height="1080"/>
         <image name="buttonprofile" width="1080" height="1080"/>
+        <image name="challenges" width="1080" height="1920"/>
         <image name="play" catalog="system" width="120" height="128"/>
         <image name="stop" catalog="system" width="128" height="113"/>
     </resources>
