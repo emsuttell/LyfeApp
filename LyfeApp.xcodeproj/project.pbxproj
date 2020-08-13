@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		1847673624E4AB67002231AE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673524E4AB67002231AE /* ToDoTableViewController.swift */; };
 		1847673824E4AB89002231AE /* ToDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673724E4AB89002231AE /* ToDO.swift */; };
+		18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23A24E4C35F00F345B5 /* profilePage1.swift */; };
+		18D9A23D24E4C69B00F345B5 /* bensoundrelaxing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */; };
+		18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23E24E4C6B200F345B5 /* meditationPage.swift */; };
+		18D9A24224E4C6FD00F345B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */; };
+		18D9A24424E4C87C00F345B5 /* gamela.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A24324E4C87C00F345B5 /* gamela.mp3 */; };
+		18D9A24624E4C89300F345B5 /* dreamescape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A24524E4C89300F345B5 /* dreamescape.mp3 */; };
 		18DF3BF224E3A2BE00B0D7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF124E3A2BE00B0D7B7 /* AppDelegate.swift */; };
 		18DF3BF424E3A2BE00B0D7B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */; };
 		18DF3BF624E3A2BE00B0D7B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */; };
@@ -40,6 +46,12 @@
 /* Begin PBXFileReference section */
 		1847673524E4AB67002231AE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		1847673724E4AB89002231AE /* ToDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDO.swift; sourceTree = "<group>"; };
+		18D9A23A24E4C35F00F345B5 /* profilePage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage1.swift; sourceTree = "<group>"; };
+		18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bensoundrelaxing.mp3; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/bensoundrelaxing.mp3"; sourceTree = "<group>"; };
+		18D9A23E24E4C6B200F345B5 /* meditationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationPage.swift; sourceTree = "<group>"; };
+		18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18D9A24324E4C87C00F345B5 /* gamela.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gamela.mp3; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/gamela.mp3"; sourceTree = "<group>"; };
+		18D9A24524E4C89300F345B5 /* dreamescape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dreamescape.mp3; path = ../../../Downloads/dreamescape.mp3; sourceTree = "<group>"; };
 		18DF3BEE24E3A2BE00B0D7B7 /* LyfeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyfeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DF3BF124E3A2BE00B0D7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D9A24224E4C6FD00F345B5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D9A24024E4C6FD00F345B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18DF3BE524E3A2BE00B0D7B7 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +110,7 @@
 				18DF3C0A24E3A2BF00B0D7B7 /* LyfeAppTests */,
 				18DF3C1524E3A2BF00B0D7B7 /* LyfeAppUITests */,
 				18DF3BEF24E3A2BE00B0D7B7 /* Products */,
+				18D9A24024E4C6FD00F345B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,12 +131,17 @@
 				18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */,
 				18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */,
 				18DF3BF724E3A2BE00B0D7B7 /* Main.storyboard */,
+				18D9A23E24E4C6B200F345B5 /* meditationPage.swift */,
 				1847673724E4AB89002231AE /* ToDO.swift */,
 				1847673524E4AB67002231AE /* ToDoTableViewController.swift */,
+				18D9A23A24E4C35F00F345B5 /* profilePage1.swift */,
 				18DF3BFD24E3A2BF00B0D7B7 /* Assets.xcassets */,
 				18DF3BFF24E3A2BF00B0D7B7 /* LaunchScreen.storyboard */,
 				18DF3C0224E3A2BF00B0D7B7 /* Info.plist */,
 				18DF3BFA24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld */,
+				18D9A24324E4C87C00F345B5 /* gamela.mp3 */,
+				18D9A24524E4C89300F345B5 /* dreamescape.mp3 */,
+				18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */,
 			);
 			path = LyfeApp;
 			sourceTree = "<group>";
@@ -242,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DF3C0124E3A2BF00B0D7B7 /* LaunchScreen.storyboard in Resources */,
+				18D9A24624E4C89300F345B5 /* dreamescape.mp3 in Resources */,
 				18DF3BFE24E3A2BF00B0D7B7 /* Assets.xcassets in Resources */,
+				18D9A24424E4C87C00F345B5 /* gamela.mp3 in Resources */,
+				18D9A23D24E4C69B00F345B5 /* bensoundrelaxing.mp3 in Resources */,
 				18DF3BF924E3A2BE00B0D7B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +300,10 @@
 			files = (
 				18DF3BF624E3A2BE00B0D7B7 /* ViewController.swift in Sources */,
 				18DF3BFC24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld in Sources */,
+				18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */,
 				18DF3BF224E3A2BE00B0D7B7 /* AppDelegate.swift in Sources */,
 				1847673824E4AB89002231AE /* ToDO.swift in Sources */,
+				18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */,
 				18DF3BF424E3A2BE00B0D7B7 /* SceneDelegate.swift in Sources */,
 				1847673624E4AB67002231AE /* ToDoTableViewController.swift in Sources */,
 			);
