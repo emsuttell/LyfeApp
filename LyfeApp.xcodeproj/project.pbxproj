@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1847673624E4AB67002231AE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673524E4AB67002231AE /* ToDoTableViewController.swift */; };
-		1847673824E4AB89002231AE /* ToDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673724E4AB89002231AE /* ToDO.swift */; };
+		1847674024E4E114002231AE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673F24E4E114002231AE /* ToDoTableViewController.swift */; };
+		1847674224E4E13C002231AE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847674124E4E13C002231AE /* ToDo.swift */; };
+		1847674424E4E398002231AE /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847674324E4E398002231AE /* AddToDoViewController.swift */; };
 		18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23A24E4C35F00F345B5 /* profilePage1.swift */; };
 		18D9A23D24E4C69B00F345B5 /* bensoundrelaxing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */; };
 		18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23E24E4C6B200F345B5 /* meditationPage.swift */; };
@@ -44,8 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1847673524E4AB67002231AE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
-		1847673724E4AB89002231AE /* ToDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDO.swift; sourceTree = "<group>"; };
+		1847673F24E4E114002231AE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		1847674124E4E13C002231AE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		1847674324E4E398002231AE /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		18D9A23A24E4C35F00F345B5 /* profilePage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage1.swift; sourceTree = "<group>"; };
 		18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bensoundrelaxing.mp3; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/bensoundrelaxing.mp3"; sourceTree = "<group>"; };
 		18D9A23E24E4C6B200F345B5 /* meditationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationPage.swift; sourceTree = "<group>"; };
@@ -131,9 +133,10 @@
 				18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */,
 				18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */,
 				18DF3BF724E3A2BE00B0D7B7 /* Main.storyboard */,
+				1847674324E4E398002231AE /* AddToDoViewController.swift */,
+				1847674124E4E13C002231AE /* ToDo.swift */,
+				1847673F24E4E114002231AE /* ToDoTableViewController.swift */,
 				18D9A23E24E4C6B200F345B5 /* meditationPage.swift */,
-				1847673724E4AB89002231AE /* ToDO.swift */,
-				1847673524E4AB67002231AE /* ToDoTableViewController.swift */,
 				18D9A23A24E4C35F00F345B5 /* profilePage1.swift */,
 				18DF3BFD24E3A2BF00B0D7B7 /* Assets.xcassets */,
 				18DF3BFF24E3A2BF00B0D7B7 /* LaunchScreen.storyboard */,
@@ -300,12 +303,13 @@
 			files = (
 				18DF3BF624E3A2BE00B0D7B7 /* ViewController.swift in Sources */,
 				18DF3BFC24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld in Sources */,
+				1847674024E4E114002231AE /* ToDoTableViewController.swift in Sources */,
+				1847674224E4E13C002231AE /* ToDo.swift in Sources */,
+				1847674424E4E398002231AE /* AddToDoViewController.swift in Sources */,
 				18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */,
 				18DF3BF224E3A2BE00B0D7B7 /* AppDelegate.swift in Sources */,
-				1847673824E4AB89002231AE /* ToDO.swift in Sources */,
 				18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */,
 				18DF3BF424E3A2BE00B0D7B7 /* SceneDelegate.swift in Sources */,
-				1847673624E4AB67002231AE /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
