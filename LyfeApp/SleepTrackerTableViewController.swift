@@ -1,19 +1,17 @@
 //
-//  ToDoTableViewController.swift
+//  SleepTrackerTableViewController.swift
 //  LyfeApp
 //
-//  Created by Apple on 8/12/20.
+//  Created by Apple on 8/13/20.
 //  Copyright © 2020 EmmaxManasaCode. All rights reserved.
 //
 
 import UIKit
 
-class ToDoTableViewController: UITableViewController {
+class SleepTrackerTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-         toDos = createToDos()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -21,47 +19,28 @@ class ToDoTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
-    var toDos : [ToDo] = []
-    
-    func createToDos() -> [ToDo] {
-
-     let swift = ToDo()
-      swift.name = "Enter hours here!"
-      swift.important = false
-
-      
-      // important is set to false by default
-
-      return [swift]
-    }
 
     // MARK: - Table view data source
 
-   /* override func numberOfSections(in tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
     }
-*/
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-         return toDos.count
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-       let toDo = toDos[indexPath.row]
-        if toDo.important {
-           cell.textLabel?.text = "❗️" + toDo.name
-         } else {
-           cell.textLabel?.text = toDo.name
-         }
+        // Configure the cell...
 
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -98,19 +77,14 @@ class ToDoTableViewController: UITableViewController {
     }
     */
 
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if let addVC = segue.destination as? AddToDoViewController {
-          addVC.previousVC = self
-        }
-        
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    
+    */
 
 }

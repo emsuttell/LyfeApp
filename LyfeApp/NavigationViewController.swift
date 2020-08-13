@@ -1,20 +1,15 @@
 //
-//  AddToDoViewController.swift
+//  NavigationViewController.swift
 //  LyfeApp
 //
-//  Created by Apple on 8/12/20.
+//  Created by Apple on 8/13/20.
 //  Copyright © 2020 EmmaxManasaCode. All rights reserved.
 //
 
 import UIKit
 
-class AddToDoViewController: UIViewController {
+class NavigationViewController: UIViewController {
 
-    var previousVC = ToDoTableViewController()
-    
-    
-    @IBOutlet weak var titleTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,19 +17,6 @@ class AddToDoViewController: UIViewController {
     }
     
 
-    @IBAction func addTapped(_ sender: Any) {
-        
-        let toDo = ToDo()
-
-        if let titleText = titleTextField.text {
-          toDo.name = titleText
-          
-        }
-        
-        previousVC.toDos.append(toDo)
-        previousVC.tableView.reloadData()
-        navigationController?.popViewController(animated: true)
-    }
     /*
     // MARK: - Navigation
 
