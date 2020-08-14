@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "self:">
+=======
+      location = "self:LyfeApp.xcodeproj">
+>>>>>>> 48b2f8c7f92e1294af721680a2d2f97511c00891
    </FileRef>
 </Workspace>

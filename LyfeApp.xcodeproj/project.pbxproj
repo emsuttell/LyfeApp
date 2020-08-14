@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18382E2624E5E245003D5D00 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382E2524E5E245003D5D00 /* NoteViewController.swift */; };
+		18382E2824E5E253003D5D00 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382E2724E5E253003D5D00 /* EntryViewController.swift */; };
+		18382E2A24E5E282003D5D00 /* NoteMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18382E2924E5E282003D5D00 /* NoteMenuViewController.swift */; };
+		1847674024E4E114002231AE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847673F24E4E114002231AE /* ToDoTableViewController.swift */; };
+		1847674224E4E13C002231AE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847674124E4E13C002231AE /* ToDo.swift */; };
+		1847674424E4E398002231AE /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847674324E4E398002231AE /* AddToDoViewController.swift */; };
+		1847678D24E5A1FC002231AE /* SleepTrackerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847678C24E5A1FC002231AE /* SleepTrackerTableViewController.swift */; };
+		1847678F24E5BDE2002231AE /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847678E24E5BDE2002231AE /* NavigationViewController.swift */; };
+		18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23A24E4C35F00F345B5 /* profilePage1.swift */; };
+		18D9A23D24E4C69B00F345B5 /* bensoundrelaxing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */; };
+		18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9A23E24E4C6B200F345B5 /* meditationPage.swift */; };
+		18D9A24224E4C6FD00F345B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */; };
+		18D9A24424E4C87C00F345B5 /* gamela.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A24324E4C87C00F345B5 /* gamela.mp3 */; };
+		18D9A24624E4C89300F345B5 /* dreamescape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D9A24524E4C89300F345B5 /* dreamescape.mp3 */; };
+		18DF3BF224E3A2BE00B0D7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF124E3A2BE00B0D7B7 /* AppDelegate.swift */; };
+		18DF3BF424E3A2BE00B0D7B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */; };
+		18DF3BF624E3A2BE00B0D7B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */; };
+		18DF3BF924E3A2BE00B0D7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF3BF724E3A2BE00B0D7B7 /* Main.storyboard */; };
+		18DF3BFC24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3BFA24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld */; };
+		18DF3BFE24E3A2BF00B0D7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DF3BFD24E3A2BF00B0D7B7 /* Assets.xcassets */; };
+		18DF3C0124E3A2BF00B0D7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF3BFF24E3A2BF00B0D7B7 /* LaunchScreen.storyboard */; };
+		18DF3C0C24E3A2BF00B0D7B7 /* LyfeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3C0B24E3A2BF00B0D7B7 /* LyfeAppTests.swift */; };
+		18DF3C1724E3A2BF00B0D7B7 /* LyfeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF3C1624E3A2BF00B0D7B7 /* LyfeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DF3C0824E3A2BF00B0D7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DF3BE624E3A2BE00B0D7B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DF3BED24E3A2BE00B0D7B7;
+			remoteInfo = LyfeApp;
+		};
+		18DF3C1324E3A2BF00B0D7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DF3BE624E3A2BE00B0D7B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DF3BED24E3A2BE00B0D7B7;
+			remoteInfo = LyfeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18382E2524E5E245003D5D00 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		18382E2724E5E253003D5D00 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		18382E2924E5E282003D5D00 /* NoteMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMenuViewController.swift; sourceTree = "<group>"; };
+		1847673F24E4E114002231AE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		1847674124E4E13C002231AE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		1847674324E4E398002231AE /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		1847678C24E5A1FC002231AE /* SleepTrackerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerTableViewController.swift; sourceTree = "<group>"; };
+		1847678E24E5BDE2002231AE /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		18D9A23A24E4C35F00F345B5 /* profilePage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage1.swift; sourceTree = "<group>"; };
+		18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bensoundrelaxing.mp3; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/bensoundrelaxing.mp3"; sourceTree = "<group>"; };
+		18D9A23E24E4C6B200F345B5 /* meditationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditationPage.swift; sourceTree = "<group>"; };
+		18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18D9A24324E4C87C00F345B5 /* gamela.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gamela.mp3; path = "../../../Music/Music/Media.localized/Unknown Artist/Unknown Album/gamela.mp3"; sourceTree = "<group>"; };
+		18D9A24524E4C89300F345B5 /* dreamescape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dreamescape.mp3; path = ../../../Downloads/dreamescape.mp3; sourceTree = "<group>"; };
+		18DF3BEE24E3A2BE00B0D7B7 /* LyfeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyfeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF3BF124E3A2BE00B0D7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DF3BF824E3A2BE00B0D7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DF3BFB24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LyfeApp.xcdatamodel; sourceTree = "<group>"; };
+		18DF3BFD24E3A2BF00B0D7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DF3C0024E3A2BF00B0D7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DF3C0224E3A2BF00B0D7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DF3C0724E3A2BF00B0D7B7 /* LyfeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyfeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF3C0B24E3A2BF00B0D7B7 /* LyfeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyfeAppTests.swift; sourceTree = "<group>"; };
+		18DF3C0D24E3A2BF00B0D7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DF3C1224E3A2BF00B0D7B7 /* LyfeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyfeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF3C1624E3A2BF00B0D7B7 /* LyfeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyfeAppUITests.swift; sourceTree = "<group>"; };
+		18DF3C1824E3A2BF00B0D7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DF3BEB24E3A2BE00B0D7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9A24224E4C6FD00F345B5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C0424E3A2BF00B0D7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C0F24E3A2BF00B0D7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D9A24024E4C6FD00F345B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D9A24124E4C6FD00F345B5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DF3BE524E3A2BE00B0D7B7 = {
+			isa = PBXGroup;
+			children = (
+				18DF3BF024E3A2BE00B0D7B7 /* LyfeApp */,
+				18DF3C0A24E3A2BF00B0D7B7 /* LyfeAppTests */,
+				18DF3C1524E3A2BF00B0D7B7 /* LyfeAppUITests */,
+				18DF3BEF24E3A2BE00B0D7B7 /* Products */,
+				18D9A24024E4C6FD00F345B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18DF3BEF24E3A2BE00B0D7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DF3BEE24E3A2BE00B0D7B7 /* LyfeApp.app */,
+				18DF3C0724E3A2BF00B0D7B7 /* LyfeAppTests.xctest */,
+				18DF3C1224E3A2BF00B0D7B7 /* LyfeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DF3BF024E3A2BE00B0D7B7 /* LyfeApp */ = {
+			isa = PBXGroup;
+			children = (
+				1847678C24E5A1FC002231AE /* SleepTrackerTableViewController.swift */,
+				18DF3BF124E3A2BE00B0D7B7 /* AppDelegate.swift */,
+				18DF3BF324E3A2BE00B0D7B7 /* SceneDelegate.swift */,
+				18DF3BF524E3A2BE00B0D7B7 /* ViewController.swift */,
+				18DF3BF724E3A2BE00B0D7B7 /* Main.storyboard */,
+				18382E2524E5E245003D5D00 /* NoteViewController.swift */,
+				18382E2724E5E253003D5D00 /* EntryViewController.swift */,
+				18382E2924E5E282003D5D00 /* NoteMenuViewController.swift */,
+				1847678E24E5BDE2002231AE /* NavigationViewController.swift */,
+				1847674324E4E398002231AE /* AddToDoViewController.swift */,
+				1847674124E4E13C002231AE /* ToDo.swift */,
+				1847673F24E4E114002231AE /* ToDoTableViewController.swift */,
+				18D9A23E24E4C6B200F345B5 /* meditationPage.swift */,
+				18D9A23A24E4C35F00F345B5 /* profilePage1.swift */,
+				18DF3BFD24E3A2BF00B0D7B7 /* Assets.xcassets */,
+				18DF3BFF24E3A2BF00B0D7B7 /* LaunchScreen.storyboard */,
+				18DF3C0224E3A2BF00B0D7B7 /* Info.plist */,
+				18DF3BFA24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld */,
+				18D9A24324E4C87C00F345B5 /* gamela.mp3 */,
+				18D9A24524E4C89300F345B5 /* dreamescape.mp3 */,
+				18D9A23C24E4C69B00F345B5 /* bensoundrelaxing.mp3 */,
+			);
+			path = LyfeApp;
+			sourceTree = "<group>";
+		};
+		18DF3C0A24E3A2BF00B0D7B7 /* LyfeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DF3C0B24E3A2BF00B0D7B7 /* LyfeAppTests.swift */,
+				18DF3C0D24E3A2BF00B0D7B7 /* Info.plist */,
+			);
+			path = LyfeAppTests;
+			sourceTree = "<group>";
+		};
+		18DF3C1524E3A2BF00B0D7B7 /* LyfeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DF3C1624E3A2BF00B0D7B7 /* LyfeAppUITests.swift */,
+				18DF3C1824E3A2BF00B0D7B7 /* Info.plist */,
+			);
+			path = LyfeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DF3BED24E3A2BE00B0D7B7 /* LyfeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF3C1B24E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeApp" */;
+			buildPhases = (
+				18DF3BEA24E3A2BE00B0D7B7 /* Sources */,
+				18DF3BEB24E3A2BE00B0D7B7 /* Frameworks */,
+				18DF3BEC24E3A2BE00B0D7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyfeApp;
+			productName = LyfeApp;
+			productReference = 18DF3BEE24E3A2BE00B0D7B7 /* LyfeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DF3C0624E3A2BF00B0D7B7 /* LyfeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF3C1E24E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeAppTests" */;
+			buildPhases = (
+				18DF3C0324E3A2BF00B0D7B7 /* Sources */,
+				18DF3C0424E3A2BF00B0D7B7 /* Frameworks */,
+				18DF3C0524E3A2BF00B0D7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DF3C0924E3A2BF00B0D7B7 /* PBXTargetDependency */,
+			);
+			name = LyfeAppTests;
+			productName = LyfeAppTests;
+			productReference = 18DF3C0724E3A2BF00B0D7B7 /* LyfeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DF3C1124E3A2BF00B0D7B7 /* LyfeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF3C2124E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeAppUITests" */;
+			buildPhases = (
+				18DF3C0E24E3A2BF00B0D7B7 /* Sources */,
+				18DF3C0F24E3A2BF00B0D7B7 /* Frameworks */,
+				18DF3C1024E3A2BF00B0D7B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DF3C1424E3A2BF00B0D7B7 /* PBXTargetDependency */,
+			);
+			name = LyfeAppUITests;
+			productName = LyfeAppUITests;
+			productReference = 18DF3C1224E3A2BF00B0D7B7 /* LyfeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DF3BE624E3A2BE00B0D7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = EmmaxManasaCode;
+				TargetAttributes = {
+					18DF3BED24E3A2BE00B0D7B7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					18DF3C0624E3A2BF00B0D7B7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18DF3BED24E3A2BE00B0D7B7;
+					};
+					18DF3C1124E3A2BF00B0D7B7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18DF3BED24E3A2BE00B0D7B7;
+					};
+				};
+			};
+			buildConfigurationList = 18DF3BE924E3A2BE00B0D7B7 /* Build configuration list for PBXProject "LyfeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DF3BE524E3A2BE00B0D7B7;
+			productRefGroup = 18DF3BEF24E3A2BE00B0D7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DF3BED24E3A2BE00B0D7B7 /* LyfeApp */,
+				18DF3C0624E3A2BF00B0D7B7 /* LyfeAppTests */,
+				18DF3C1124E3A2BF00B0D7B7 /* LyfeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DF3BEC24E3A2BE00B0D7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF3C0124E3A2BF00B0D7B7 /* LaunchScreen.storyboard in Resources */,
+				18D9A24624E4C89300F345B5 /* dreamescape.mp3 in Resources */,
+				18DF3BFE24E3A2BF00B0D7B7 /* Assets.xcassets in Resources */,
+				18D9A24424E4C87C00F345B5 /* gamela.mp3 in Resources */,
+				18D9A23D24E4C69B00F345B5 /* bensoundrelaxing.mp3 in Resources */,
+				18DF3BF924E3A2BE00B0D7B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C0524E3A2BF00B0D7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C1024E3A2BF00B0D7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DF3BEA24E3A2BE00B0D7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF3BF624E3A2BE00B0D7B7 /* ViewController.swift in Sources */,
+				18DF3BFC24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld in Sources */,
+				1847674024E4E114002231AE /* ToDoTableViewController.swift in Sources */,
+				18382E2A24E5E282003D5D00 /* NoteMenuViewController.swift in Sources */,
+				1847678D24E5A1FC002231AE /* SleepTrackerTableViewController.swift in Sources */,
+				18382E2624E5E245003D5D00 /* NoteViewController.swift in Sources */,
+				18382E2824E5E253003D5D00 /* EntryViewController.swift in Sources */,
+				1847674224E4E13C002231AE /* ToDo.swift in Sources */,
+				1847674424E4E398002231AE /* AddToDoViewController.swift in Sources */,
+				18D9A23F24E4C6B200F345B5 /* meditationPage.swift in Sources */,
+				18DF3BF224E3A2BE00B0D7B7 /* AppDelegate.swift in Sources */,
+				18D9A23B24E4C35F00F345B5 /* profilePage1.swift in Sources */,
+				1847678F24E5BDE2002231AE /* NavigationViewController.swift in Sources */,
+				18DF3BF424E3A2BE00B0D7B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C0324E3A2BF00B0D7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF3C0C24E3A2BF00B0D7B7 /* LyfeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF3C0E24E3A2BF00B0D7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF3C1724E3A2BF00B0D7B7 /* LyfeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DF3C0924E3A2BF00B0D7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DF3BED24E3A2BE00B0D7B7 /* LyfeApp */;
+			targetProxy = 18DF3C0824E3A2BF00B0D7B7 /* PBXContainerItemProxy */;
+		};
+		18DF3C1424E3A2BF00B0D7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DF3BED24E3A2BE00B0D7B7 /* LyfeApp */;
+			targetProxy = 18DF3C1324E3A2BF00B0D7B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DF3BF724E3A2BE00B0D7B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DF3BF824E3A2BE00B0D7B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DF3BFF24E3A2BF00B0D7B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DF3C0024E3A2BF00B0D7B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DF3C1924E3A2BF00B0D7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DF3C1A24E3A2BF00B0D7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DF3C1C24E3A2BF00B0D7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DF3C1D24E3A2BF00B0D7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DF3C1F24E3A2BF00B0D7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyfeApp.app/LyfeApp";
+			};
+			name = Debug;
+		};
+		18DF3C2024E3A2BF00B0D7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyfeApp.app/LyfeApp";
+			};
+			name = Release;
+		};
+		18DF3C2224E3A2BF00B0D7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyfeApp;
+			};
+			name = Debug;
+		};
+		18DF3C2324E3A2BF00B0D7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyfeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EmmaxManasa.LyfeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyfeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DF3BE924E3A2BE00B0D7B7 /* Build configuration list for PBXProject "LyfeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF3C1924E3A2BF00B0D7B7 /* Debug */,
+				18DF3C1A24E3A2BF00B0D7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF3C1B24E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF3C1C24E3A2BF00B0D7B7 /* Debug */,
+				18DF3C1D24E3A2BF00B0D7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF3C1E24E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF3C1F24E3A2BF00B0D7B7 /* Debug */,
+				18DF3C2024E3A2BF00B0D7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF3C2124E3A2BF00B0D7B7 /* Build configuration list for PBXNativeTarget "LyfeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF3C2224E3A2BF00B0D7B7 /* Debug */,
+				18DF3C2324E3A2BF00B0D7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18DF3BFA24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18DF3BFB24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodel */,
+			);
+			currentVersion = 18DF3BFB24E3A2BE00B0D7B7 /* LyfeApp.xcdatamodel */;
+			path = LyfeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18DF3BE624E3A2BE00B0D7B7 /* Project object */;
+}
